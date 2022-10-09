@@ -9,7 +9,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+}
+
+.main_home {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 .footer {
@@ -106,6 +116,13 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.__particles__ {
+  position: absolute !important;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: -1;
 }
 
 @media (max-width: 600px) {
